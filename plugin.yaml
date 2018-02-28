@@ -1,0 +1,6 @@
+plugin:
+    name: 'codecycler.harvest::lang.plugin.name'
+    description: 'codecycler.harvest::lang.plugin.description'
+    author: 'Sebastiaan Kloos'
+    icon: oc-icon-clock-o
+    homepage: ''
