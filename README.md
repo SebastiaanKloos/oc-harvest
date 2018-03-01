@@ -28,6 +28,9 @@ harvest:
 ### Future
 I've planned a few more features which will be added soon.
 
+### Settings
+You can change the app title at the settings page.
+
 ### More information
 
 For more information, please take a look at the Harvest documentation.
