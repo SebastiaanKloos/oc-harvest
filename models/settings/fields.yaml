@@ -1,0 +1,8 @@
+fields:
+    section_harvest:
+        type: section
+        label: Harvest Settings
+    app_title:
+        type: text
+        span: left
+        label: App title

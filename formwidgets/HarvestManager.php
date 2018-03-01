@@ -1,6 +1,8 @@
 <?php namespace Codecycler\Harvest\FormWidgets;
 
 use Backend\Classes\FormWidgetBase;
+use Codecycler\Harvest\Models\Settings as HarvestSettings;
+use Request;
 
 /**
  * HarvestManager Form Widget
@@ -49,6 +51,9 @@ class HarvestManager extends FormWidgetBase
 
         $this->vars['task_id'] = array_pop($path) . '-' . $this->model->{$this->taskKey};
         $this->vars['task_name'] = $this->model->{$this->taskName};
+
+        $this->vars['app_name'] = HarvestSettings::get('app_name', 'Harvest');
+        $this->vars['app_url'] = Request::url();
     }
 
     /**

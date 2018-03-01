@@ -4,3 +4,7 @@ plugin:
     author: 'Sebastiaan Kloos'
     icon: oc-icon-clock-o
     homepage: ''
+permissions:
+    codecycler.harvest.access_settings:
+        tab: 'codecycler.harvest::lang.plugin.name'
+        label: 'Access settings'
